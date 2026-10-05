@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt generated files
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Airflow/runtime logs
+logs/
+airflow/logs/
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
